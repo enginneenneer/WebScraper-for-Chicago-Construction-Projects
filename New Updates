@@ -1,0 +1,5 @@
+Things that need to be changed:
+!-the way the e-mails and passwords are entered for security reasons
+-change the variable names like(variable_name not variableName)
+-make special cases, try/except for the files, site connection and e-mail connection
+-make functions to make it more readable and the code to be reusable
