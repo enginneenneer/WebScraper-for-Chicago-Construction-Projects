@@ -1,6 +1,6 @@
 # WebScraper-for-Chicago-Construction-Projects
 
-Requirements to run the program are Python 3 and BeautifulSoup, and two e-mail adresses, add them at the end of the chicago-webscraper.py.
+Requirements to run the program are Python 3 and BeautifulSoup, and two e-mail adresses.
 
 To run the program, download it, then in the folder were the "chicago-webscraper.py" is, hold Shift and right-click, then click "Open Command Prompt Window here" and type "python chicago-webscraper.py"
 
