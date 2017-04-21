@@ -140,10 +140,13 @@ Sending a mail if new projects have been found or not.
 Enter two e-mails, one from which the mail will be sent,
 and another to receive it.
 """
+emailSend = input("Enter email to send the projects: ")
+passEmail = input("Enter password: ")
+emailReceive = input("To whom: ")
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
-server.login("mail_for_sending@xxx.com", "enter_your_password")
-server.sendmail("mail_for_sending@xxx.com", "mail_for_receiving@xxx.com", mailMessage)
+server.login(emailSend, passEmail)
+server.sendmail(emailSend, emailReceive, mailMessage)
 server.quit()
 
 
